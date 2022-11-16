@@ -1,0 +1,6 @@
+a:any-link {
+    color: rgb(var(--color-primary-400));
+}
+a:any-link:hover {
+    text-decoration: underline;
+}
