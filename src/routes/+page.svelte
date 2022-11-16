@@ -52,7 +52,7 @@
         <br>
         <p class="mx-auto !text-black limit">
             BASIS Peoria Boosters is the social glue of the BASIS Peoria (Grades 5-12) community,
-            connecting students, families, teachers and staff. We raise money to support students & teachers as well as run lunch programs.
+            connecting students, families, teachers and staff. We raise money to support students & teachers as well as run breakfast programs.
             <br>
             <br>
             <a href="/" class="btn btn-base btn-filled-primary text-white">Get Involved</a>
@@ -65,11 +65,11 @@
         <img class="mx-auto" src="/img/volunteers.webp" alt="We Love our Volunteers">
     </div>
     <div class="right-content small-pad bg-accent-400 text-left">
-        <h1>Volunteer-Run Lunch Program</h1>
+        <h1>Volunteer-Run Breakfast Program</h1>
         <br>
         <p class="mx-auto !text-black">
-            BASIS Peoria Boosters’ volunteer-run lunch program gathers orders, collects payment,
-            arranges vendor deliveries, and distributes lunches during each grade’s scheduled lunch break.
+            BASIS Peoria Boosters’ volunteer-run breakfast program gathers orders, collects payment,
+            arranges vendor deliveries, and distributes breakfast during [TBD].
             This wouldn’t be possible without our volunteers!
         </p>
     </div>
@@ -83,7 +83,7 @@
     <div class="right-content small-pad text-left">
         <h1>Join our mailing list!</h1>
         <p class="mx-auto">
-            Add your email to our mailing list so you can get lunch order reminders and other updates.
+            Add your email to our mailing list so you can get breakfast order reminders and other updates.
         </p>
         <br>
         <MailingList class="ml-auto"/>
