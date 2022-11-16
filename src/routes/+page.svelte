@@ -51,7 +51,7 @@
         <h1>BASIS Peoria Boosters</h1>
         <br>
         <p class="mx-auto !text-black limit">
-            ASIS Peoria Boosters is the social glue of the BASIS Peoria (Grades 5-12) community,
+            BASIS Peoria Boosters is the social glue of the BASIS Peoria (Grades 5-12) community,
             connecting students, families, teachers and staff. We raise money to support students & teachers as well as run lunch programs.
             <br>
             <br>
