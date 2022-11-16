@@ -76,16 +76,3 @@
 </div>
 <hr>
 <br>
-<div class="split-content">
-    <div class="left-content">
-        <LargeLogo classes="mx-auto"/>
-    </div>
-    <div class="right-content small-pad text-left">
-        <h1>Join our mailing list!</h1>
-        <p class="mx-auto">
-            Add your email to our mailing list so you can get breakfast order reminders and other updates.
-        </p>
-        <br>
-        <MailingList class="ml-auto"/>
-    </div>
-</div>
