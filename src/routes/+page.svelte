@@ -75,9 +75,10 @@
     </div>
 </div>
 <hr>
+<br>
 <div class="split-content">
     <div class="left-content">
-        <LargeLogo/>
+        <LargeLogo classes="mx-auto"/>
     </div>
     <div class="right-content small-pad text-left">
         <h1>Join our mailing list!</h1>

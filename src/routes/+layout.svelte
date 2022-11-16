@@ -64,9 +64,6 @@
     :global(.mobileLinkExpander) {
         display: none;
     }
-    img {
-        height: 9rem;
-    }
     .expandButton {
         font-size: 2em;
         width: 3rem;
@@ -79,9 +76,6 @@
         width: 3em;
     }
     @media (max-width: 890px) {
-        img {
-            height: 5rem;
-        }
         .content-container {
             min-height: calc(100vh - 5rem);
         }
@@ -100,7 +94,7 @@
         <AppBar space="2xl:px-72 xl:max-2xl:px-44 lg:max-xl:px-14" slotTrail="mobileLinkExpander pr-3">
             <svelte:fragment slot="lead">
                 <h1>
-                    <LargeLogo/>
+                    <LargeLogo collapsable={true}/>
                 </h1>
             </svelte:fragment>
             <svelte:fragment slot="trail">
