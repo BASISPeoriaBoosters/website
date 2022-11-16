@@ -21,3 +21,7 @@
 <a class="px-2" href="/" class:verticalLink={vertical}>Home</a>
 <a class="px-2" class:verticalLink={vertical}>About</a>
 <a class="px-2" class:verticalLink={vertical}>Programs</a>
+<a class="px-2" class:verticalLink={vertical}>Events</a>
+<a class="px-2" class:verticalLink={vertical}>Donate</a>
+<a class="px-2" class:verticalLink={vertical}>Contact</a>
+<a class="px-2" class:verticalLink={vertical}>Member&nbsp;Resources</a>

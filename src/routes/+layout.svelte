@@ -11,14 +11,17 @@
         storeLightSwitch,
         storePrefersDarkScheme
     } from "@brainandbones/skeleton";
-    import {onDestroy, onMount} from "svelte";
+
+    import {onDestroy, onMount, setContext} from "svelte";
     import {browser} from "$app/environment";
     import BarLinks from "$lib/BarLinks.svelte";
     import {writable} from "svelte/store";
     import TiThMenu from 'svelte-icons/ti/TiThMenu.svelte'
     import GoX from 'svelte-icons/go/GoX.svelte'
+    import LargeLogo from "$lib/LargeLogo.svelte";
 
     const syncSystemTheme = localStorageStore("syncSystemTheme", true);
+    setContext("syncSystemTheme", syncSystemTheme);
 
     let linkDrawerShown = writable(false);
 
@@ -35,7 +38,6 @@
     function updatePrefersDark() {
         $storePrefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
         if($syncSystemTheme) {
-            console.log("syncing with system")
             $storeLightSwitch = window.matchMedia('(prefers-color-scheme: dark)').matches;
             setElemHtmlClass();
         }
@@ -53,12 +55,10 @@
         }
     })
 
-    $: console.log({ linkDrawerShown })
 </script>
 <style>
     .content-container {
         text-align: center;
-        padding-top: 1em;
         min-height: calc(100vh - 9rem);
     }
     :global(.mobileLinkExpander) {
@@ -97,14 +97,10 @@
 </style>
 <AppShell slotPageFooter="bg-surface-500">
     <svelte:fragment slot="header">
-        <AppBar space="2xl:px-80 xl:max-2xl:px-48 lg:max-xl:px-16" slotTrail="mobileLinkExpander pr-3">
+        <AppBar space="2xl:px-72 xl:max-2xl:px-44 lg:max-xl:px-14" slotTrail="mobileLinkExpander pr-3">
             <svelte:fragment slot="lead">
                 <h1>
-                    {#if $syncSystemTheme ? $storePrefersDarkScheme : typeof $storeLightSwitch === "undefined" ? $storePrefersDarkScheme : $storeLightSwitch}
-                        <img src="/img/basis-logo-sm-white.webp" alt="BASIS Peoria Boosters"/>
-                    {:else}
-                        <img src="/img/basis-logo-sm.webp" alt="BASIS Peoria Boosters"/>
-                    {/if}
+                    <LargeLogo/>
                 </h1>
             </svelte:fragment>
             <svelte:fragment slot="trail">
