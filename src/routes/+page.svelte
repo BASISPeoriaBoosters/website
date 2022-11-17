@@ -1,11 +1,12 @@
 <script>
-    import LargeLogo from "$lib/LargeLogo.svelte";
-    import MailingList from "$lib/MailingList.svelte";
 </script>
 
 <style>
     .small-pad {
         padding: 5% 10%;
+    }
+    .xs-pad {
+        padding: 2% 5%;
     }
     .big-pad {
         padding: 10% 8%;
@@ -34,15 +35,36 @@
         max-width: 800px;
     }
 
+    .header {
+        background-color: rgb(var(--color-primary-400));
+        max-width: 1000px;
+        padding: 4% 10%;
+    }
+
+    .spacer {
+        min-height: 500px;
+        max-width: 700px;
+
+        border: 5px gray;
+        border-style: dashed;
+    }
+
     @media (min-width: 1000px) {
         .split-content {
             display: flex;
         }
-        .left-content {
+        .minorContent {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex: 1;
+        }
+        .majorContent {
+            max-width: 80vw;
+        }
+    }
+    @media (min-width: 1000px) {
+        .smallMajor {
+            max-width: 35vw;
         }
     }
 </style>
@@ -55,16 +77,16 @@
             connecting students, families, teachers and staff. We raise money to support students & teachers as well as run breakfast programs.
             <br>
             <br>
-            <a href="/" class="btn btn-base btn-filled-primary text-white">Get Involved</a>
+            <a href="/" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
         </p>
     </div>
 </div>
 <hr>
 <div class="split-content text-black">
-    <div class="left-content">
+    <div class="minorContent flex-1">
         <img class="mx-auto" src="/img/volunteers.webp" alt="We Love our Volunteers">
     </div>
-    <div class="right-content small-pad bg-accent-400 text-left">
+    <div class="majorContent small-pad bg-accent-400 min-[1000px]:text-right">
         <h1>Volunteer-Run Breakfast Program</h1>
         <br>
         <p class="mx-auto !text-black">
@@ -76,3 +98,26 @@
 </div>
 <hr>
 <br>
+<h1 class="header lg:mx-auto">Happening This Month</h1>
+<br>
+This is what we’re up to right now. Please check back regularly for exciting events, fundraising and Boosters members activities.<br>
+<br>
+(eventually a list of upcoming events will be here)
+<div class="text-center mx-auto spacer flex items-center">
+    <div class="mx-auto">I'm a temporary spacer</div>
+</div>
+<br>
+<div class="split-content text-black">
+    <div class="majorContent smallMajor xs-pad bg-accent-400 min-[1000px]:text-right">
+        <h1>BASIS Peoria Scorpions Spirit Wear</h1>
+        <br>
+        <p class="mx-auto !text-black">
+            BASIS Peoria partners with apparelnow.com, with all profits going to the school (not affiliated with BASIS Peoria Boosters)<br>
+            <br>
+            <a href="https://apparelnow.com/basis-peoria-gear" class="btn btn-lg btn-filled-primary text-white" target="_blank">BASIS Peoria Apparel Store</a>
+        </p>
+    </div>
+    <div class="minorContent flex-1">
+        <img class="mx-auto" src="/img/spirit-wear.png" alt="We Love our Volunteers">
+    </div>
+</div>
