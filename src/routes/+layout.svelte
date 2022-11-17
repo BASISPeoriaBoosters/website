@@ -19,6 +19,7 @@
     import TiThMenu from 'svelte-icons/ti/TiThMenu.svelte'
     import GoX from 'svelte-icons/go/GoX.svelte'
     import LargeLogo from "$lib/LargeLogo.svelte";
+    import SocialLinks from "$lib/SocialLinks.svelte";
 
     const syncSystemTheme = localStorageStore("syncSystemTheme", true);
     setContext("syncSystemTheme", syncSystemTheme);
@@ -120,16 +121,30 @@
         <slot />
     </div>
     <svelte:fragment slot="footer">
-        <span on:click={() => $syncSystemTheme = false}>
-            <LightSwitch/>
-        </span>
-        {#if !$syncSystemTheme}
-            <button class="btn bg-primary-400 btn-sm text-black" on:click={() => {
-                $storeLightSwitch = undefined;
-                $syncSystemTheme = true;
-                updatePrefersDark();
-                setElemHtmlClass();
-            }}>Reset to system theme</button>
-        {/if}
+        <div class="text-center bg-surface-700 text-surface-500">
+            <br>
+            <span on:click={() => $syncSystemTheme = false}>
+                <LightSwitch/>
+            </span>
+            <br>
+            <div class="pb-2 mb-2">
+                {#if !$syncSystemTheme}
+                    <button class="btn bg-primary-400 btn-sm text-black m-0" on:click={() => {
+                        $storeLightSwitch = undefined;
+                        $syncSystemTheme = true;
+                        updatePrefersDark();
+                        setElemHtmlClass();
+                    }}>Reset to system theme</button>
+                {:else}
+                    <div class="my-4"></div>
+                {/if}
+            </div>
+            <SocialLinks/>
+            <br>
+            <br>
+            <div class="text-surface-600 pb-2">
+                Copyright © {new Date().getFullYear()} BASIS Peoria Boosters. All Rights Reserved.
+            </div>
+        </div>
     </svelte:fragment>
 </AppShell>
