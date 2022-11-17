@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"nprogress": "^0.2.0",
 		"svelte-icons": "^2.1.0"
 	}
 }

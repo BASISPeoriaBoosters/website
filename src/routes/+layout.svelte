@@ -20,6 +20,10 @@
     import GoX from 'svelte-icons/go/GoX.svelte'
     import LargeLogo from "$lib/LargeLogo.svelte";
     import SocialLinks from "$lib/SocialLinks.svelte";
+    import {navigating} from "$app/stores";
+
+    import NProgress from 'nprogress';
+    import 'nprogress/nprogress.css';
 
     const syncSystemTheme = localStorageStore("syncSystemTheme", true);
     setContext("syncSystemTheme", syncSystemTheme);
@@ -41,6 +45,28 @@
         if($syncSystemTheme) {
             $storeLightSwitch = window.matchMedia('(prefers-color-scheme: dark)').matches;
             setElemHtmlClass();
+        }
+    }
+
+    NProgress.configure({
+        // Full list: https://github.com/rstacruz/nprogress#configuration
+        minimum: 0.16
+    });
+
+    let navigateTimeout;
+    $: {
+        if ($navigating) {
+            // only show loading bar if navigating takes more than 200ms
+            clearTimeout(navigateTimeout);
+            navigateTimeout = setTimeout(() => {
+                if($navigating) {
+                    NProgress.start();
+                }
+            }, 200);
+        }
+        if (!$navigating) {
+            clearTimeout(navigateTimeout);
+            NProgress.done();
         }
     }
 
