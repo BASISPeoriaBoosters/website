@@ -56,6 +56,7 @@
     let navigateTimeout;
     $: {
         if ($navigating) {
+            $linkDrawerShown = false;
             // only show loading bar if navigating takes more than 200ms
             clearTimeout(navigateTimeout);
             navigateTimeout = setTimeout(() => {
