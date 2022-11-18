@@ -4,16 +4,14 @@ a:any-link a:not(.btn) {
 a:any-link:hover a:not(.btn) {
     text-decoration: underline;
 }
-ul > li {
-    display: inline-flex;
-    align-items: center;
-    padding: .5rem;
+ol {
+    list-style: decimal;
 }
-ul > li::before {
-    content: "";
-    width: .5rem;
-    height: .5rem;
-    border-radius: 50%;
-    background: currentColor;
-    margin-right: .3rem;
+ul {
+    list-style: unset;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 2em;
 }
