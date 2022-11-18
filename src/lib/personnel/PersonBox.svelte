@@ -10,6 +10,11 @@
     }
     .photo {
         height: 100%;
+        max-width: 25%;
+        display: flex;
+    }
+    .photo > img {
+        object-fit: contain;
     }
     .box {
         background-color: rgb(230 230 230);
@@ -22,7 +27,7 @@
         color: rgb(150, 150, 150);
     }
 </style>
-<div class="box flex mx-auto items-start align-middle p-4 px-8 max-md:mx-4">
+<div class="box flex mx-auto items-start align-middle p-4 px-8 max-lg:mx-4">
     <div class="photo inline-block text-black dark:text-white">
         {#if person.photoPath}
             <img src={person.photoPath} alt={person.name}>
