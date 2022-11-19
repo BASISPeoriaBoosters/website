@@ -22,7 +22,7 @@
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="Smart for Charters">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://www.parentsquare.com/signin">
     Parent Square
 </a>
 <br>
