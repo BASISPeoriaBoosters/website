@@ -122,7 +122,9 @@
         <AppBar space="2xl:px-72 xl:max-2xl:px-44 lg:max-xl:px-14" slotTrail="mobileLinkExpander pr-3">
             <svelte:fragment slot="lead">
                 <h1>
-                    <LargeLogo collapsable={true}/>
+                    <a href="/">
+                        <LargeLogo collapsable={true}/>
+                    </a>
                 </h1>
             </svelte:fragment>
             <svelte:fragment slot="trail">
