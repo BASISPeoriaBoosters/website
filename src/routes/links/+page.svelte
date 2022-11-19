@@ -7,34 +7,33 @@
 <br>
 <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://smile.amazon.com/ch/45-2095210">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://smile.amazon.com/ch/45-2095210" target="_blank" rel="noreferrer">
     Amazon No-Cost Donations
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://www.frysfood.com/topic/new-community-rewards-program">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://www.frysfood.com/topic/new-community-rewards-program" target="_blank" rel="noreferrer">
     Fry’s No-Cost Donations
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://parent.smartforcharters.com/">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://parent.smartforcharters.com/" target="_blank" rel="noreferrer">
     Smart for Charters
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://www.parentsquare.com/signin">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://www.parentsquare.com/signin" target="_blank" rel="noreferrer">
     Parent Square
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="http://www.basispeoria.org/">
+<a class="btn btn-lg btn-filled-primary text-black" href="http://www.basispeoria.org/" target="_blank" rel="noreferrer">
     BASIS Peoria Website
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://www.basised.com/peoria/events/">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://www.basised.com/peoria/events/" target="_blank" rel="noreferrer">
     BASIS Peoria Event Calendar
 </a>
 <br>
 <br>
-
