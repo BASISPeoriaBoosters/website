@@ -1,4 +1,5 @@
 <script>
+import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
 </script>
 
 <style>
@@ -102,10 +103,10 @@
 <br>
 This is what we’re up to right now. Please check back regularly for exciting events, fundraising and Boosters members activities.<br>
 <br>
-(eventually a list of upcoming events will be here)
-<div class="text-center mx-auto spacer flex items-center">
-    <div class="mx-auto">I'm a temporary spacer</div>
-</div>
+<h4>Upcoming events in the next 30 days</h4>
+<UpcomingEvents/>
+<br>
+<br>
 <br>
 <div class="split-content text-black">
     <div class="majorContent smallMajor xs-pad bg-accent-400 min-[1000px]:text-right">
