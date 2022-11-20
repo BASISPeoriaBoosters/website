@@ -14,12 +14,12 @@
 
     import {onDestroy, onMount, setContext} from "svelte";
     import {browser} from "$app/environment";
-    import BarLinks from "$lib/BarLinks.svelte";
+    import BarLinks from "$lib/layout/BarLinks.svelte";
     import {writable} from "svelte/store";
     import TiThMenu from 'svelte-icons/ti/TiThMenu.svelte'
     import GoX from 'svelte-icons/go/GoX.svelte'
-    import LargeLogo from "$lib/LargeLogo.svelte";
-    import SocialLinks from "$lib/SocialLinks.svelte";
+    import LargeLogo from "$lib/layout/LargeLogo.svelte";
+    import SocialLinks from "$lib/layout/SocialLinks.svelte";
     import {navigating} from "$app/stores";
 
     import NProgress from 'nprogress';

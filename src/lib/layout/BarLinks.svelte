@@ -18,7 +18,7 @@
     }
 </style>
 
-<a class="px-2" href="/" class:verticalLink={vertical}>Home</a>
+<a class="px-2" href="/static" class:verticalLink={vertical}>Home</a>
 <a class="px-2" href="/personnel" class:verticalLink={vertical}>People</a>
 <a class="px-2" href="/programs/breakfast" class:verticalLink={vertical}>Programs</a>
 <a class="px-2" href="https://www.basised.com/peoria/events/" target="_blank" rel="noreferrer" class:verticalLink={vertical}>Events</a>
