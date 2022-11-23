@@ -77,7 +77,7 @@ import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
             connecting students, families, teachers and staff. We raise money to support students & teachers as well as run breakfast programs.
             <br>
             <br>
-            <a href="/" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
+            <a href="/programs/breakfast#volunteer" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
         </p>
     </div>
 </div>
