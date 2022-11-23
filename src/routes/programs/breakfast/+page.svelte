@@ -92,7 +92,7 @@
 
     <br>
     <br>
-    <h1>Volunteer</h1>
+    <h1 id="volunteer">Volunteer</h1>
     <br>
     Lunch volunteers are greatly needed. Willing and able? Sign up today!<br>
     Without lunch volunteers, we would be unable to distribute hot lunches to students.<br>
