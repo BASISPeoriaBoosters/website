@@ -49,7 +49,7 @@
 {#await prom}
     <ProgressBar/>
 {:then c}
-    <div class="inline-block">
+    <div class="inline-block m-2">
         {#each events as event}
             <CalendarEvent {event}/>
             <br>
