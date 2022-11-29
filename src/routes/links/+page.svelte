@@ -17,8 +17,8 @@
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://parent.smartforcharters.com/" target="_blank" rel="noreferrer">
-    Smart for Charters
+<a class="btn btn-lg btn-filled-primary text-black" href="https://parentcharter.blackbaud.school/" target="_blank" rel="noreferrer">
+    Blackbaud
 </a>
 <br>
 <br>
@@ -32,7 +32,7 @@
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://www.basised.com/peoria/events/" target="_blank" rel="noreferrer">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://enrollbasis.com/wp-content/uploads/2020/05/peoria-school-calendar.pdf " target="_blank" rel="noreferrer">
     BASIS Peoria Event Calendar
 </a>
 <br>
