@@ -32,8 +32,7 @@
         <br>
         To learn more about the Annual Teacher Fund and to make a contribution,
         <a href="http://www.basispeoria.org/annual-teachers-fund-atf-peoria.aspx?_ga=1.219036377.1578365184.1462828794" target="_blank" rel="noreferrer">
-            click here
-        </a>.
+            click here</a>.
     </div>
     <br>
     <br>
