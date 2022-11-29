@@ -74,7 +74,8 @@ import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
         <br>
         <p class="mx-auto !text-black limit">
             BASIS Peoria Boosters is the social glue of the BASIS Peoria (Grades 5-12) community,
-            connecting students, families, teachers and staff. We raise money to support students & teachers as well as run breakfast programs.
+            connecting students, families, teachers, and staff. We raise money to support students & teachers
+            as well as run the breakfast program.
             <br>
             <br>
             <a href="/programs/breakfast#volunteer" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
