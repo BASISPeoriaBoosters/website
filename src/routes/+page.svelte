@@ -108,17 +108,3 @@ This is what we’re up to right now. Please check back regularly for exciting e
 <br>
 <br>
 <br>
-<div class="split-content text-black">
-    <div class="majorContent smallMajor xs-pad bg-accent-400 min-[1000px]:text-right">
-        <h1>BASIS Peoria Scorpions Spirit Wear</h1>
-        <br>
-        <p class="mx-auto !text-black">
-            BASIS Peoria partners with apparelnow.com, with all profits going to the school (not affiliated with BASIS Peoria Boosters)<br>
-            <br>
-            <a href="https://apparelnow.com/basis-peoria-gear" class="btn btn-lg btn-filled-primary text-white" target="_blank">BASIS Peoria Apparel Store</a>
-        </p>
-    </div>
-    <div class="minorContent flex-1">
-        <img class="mx-auto" src="/img/spirit-wear.png" alt="We Love our Volunteers">
-    </div>
-</div>
