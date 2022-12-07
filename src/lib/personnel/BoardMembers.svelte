@@ -4,8 +4,20 @@
 
     let personnel: Person[] = [
         {
-            name: "Example Person",
-            description: "Very important position",
+            name: "Heather Nuzzo",
+            description: "President",
+        },
+        {
+            name: "Tarun Punhani",
+            description: "Vice President"
+        },
+        {
+            name: "Vijay Yelmat",
+            description: "Treasurer"
+        },
+        {
+            name: "Joy Geiss",
+            description: "Communications"
         }
     ];
 </script>

@@ -27,7 +27,7 @@
         color: rgb(150, 150, 150);
     }
 </style>
-<div class="box flex mx-auto items-start align-middle p-4 px-8 max-lg:mx-4">
+<div class="box flex mx-auto items-start align-middle p-4 px-8 max-lg:mx-4 my-2">
     <div class="photo inline-block text-black dark:text-white">
         {#if person.photoPath}
             <img src={person.photoPath} alt={person.name}>
