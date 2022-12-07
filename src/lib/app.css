@@ -14,4 +14,8 @@ ul {
 .container {
     max-width: 1200px;
     margin-top: 2em;
+    padding: 1rem;
+}
+.smaller-container {
+    max-width: 800px;
 }

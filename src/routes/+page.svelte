@@ -1,4 +1,5 @@
 <script>
+import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
 </script>
 
 <style>
@@ -16,8 +17,7 @@
     .imageBox-background {
         background-image: url("/img/building.png");
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
     }
     .imageBox {
@@ -74,10 +74,11 @@
         <br>
         <p class="mx-auto !text-black limit">
             BASIS Peoria Boosters is the social glue of the BASIS Peoria (Grades 5-12) community,
-            connecting students, families, teachers and staff. We raise money to support students & teachers as well as run breakfast programs.
+            connecting students, families, teachers, and staff. We raise money to support students & teachers
+            as well as run the breakfast program.
             <br>
             <br>
-            <a href="/" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
+            <a href="/programs/breakfast#volunteer" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
         </p>
     </div>
 </div>
@@ -102,22 +103,8 @@
 <br>
 This is what we’re up to right now. Please check back regularly for exciting events, fundraising and Boosters members activities.<br>
 <br>
-(eventually a list of upcoming events will be here)
-<div class="text-center mx-auto spacer flex items-center">
-    <div class="mx-auto">I'm a temporary spacer</div>
-</div>
+<h4>Upcoming events in the next 30 days</h4>
+<UpcomingEvents/>
 <br>
-<div class="split-content text-black">
-    <div class="majorContent smallMajor xs-pad bg-accent-400 min-[1000px]:text-right">
-        <h1>BASIS Peoria Scorpions Spirit Wear</h1>
-        <br>
-        <p class="mx-auto !text-black">
-            BASIS Peoria partners with apparelnow.com, with all profits going to the school (not affiliated with BASIS Peoria Boosters)<br>
-            <br>
-            <a href="https://apparelnow.com/basis-peoria-gear" class="btn btn-lg btn-filled-primary text-white" target="_blank">BASIS Peoria Apparel Store</a>
-        </p>
-    </div>
-    <div class="minorContent flex-1">
-        <img class="mx-auto" src="/img/spirit-wear.png" alt="We Love our Volunteers">
-    </div>
-</div>
+<br>
+<br>
