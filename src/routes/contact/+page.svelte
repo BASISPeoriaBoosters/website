@@ -1,6 +1,9 @@
 <script>
     import {Divider} from "@brainandbones/skeleton";
 </script>
+<svelte:head>
+    <title>Contact | BASIS Peoria Boosters</title>
+</svelte:head>
 
 <br>
 <h1>Contact BASIS Peoria Boosters</h1>

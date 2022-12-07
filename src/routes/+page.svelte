@@ -1,6 +1,9 @@
 <script>
 import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
 </script>
+<svelte:head>
+    <title>BASIS Peoria Boosters</title>
+</svelte:head>
 
 <style>
     .small-pad {

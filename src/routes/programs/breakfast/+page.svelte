@@ -7,6 +7,9 @@
         max-width: 500px;
     }
 </style>
+<svelte:head>
+    <title>Breakfast Program | BASIS Peoria Boosters</title>
+</svelte:head>
 
 <div class="container mx-auto">
     <OutdatedWarning/>

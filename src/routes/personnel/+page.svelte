@@ -2,6 +2,10 @@
     import BoardMembers from "$lib/personnel/BoardMembers.svelte";
     import {Divider} from "@brainandbones/skeleton";
 </script>
+<svelte:head>
+    <title>People | BASIS Peoria Boosters</title>
+</svelte:head>
+
 <div class="container text-center mx-auto">
     <h1>BASIS Peoria Boosters Personnel</h1>
     <br>

@@ -2,6 +2,10 @@
     import {Divider} from "@brainandbones/skeleton";
 </script>
 
+<svelte:head>
+    <title>Donate | BASIS Peoria Boosters</title>
+</svelte:head>
+
 <div class="container mx-auto">
     <h1>Donate</h1>
     <br>
