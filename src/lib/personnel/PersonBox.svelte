@@ -39,6 +39,12 @@
         <h3 class="text-black dark:text-white mb-2">{person.name}</h3>
         <span>
             {person.description}
+            {#if person.email}
+                <br>
+                <span class="block my-1">
+                    <a href="mailto:{person.email}">{person.email}</a>
+                </span>
+            {/if}
         </span>
     </div>
 </div>

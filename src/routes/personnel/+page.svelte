@@ -11,7 +11,7 @@
     <br>
     These are the people who make <b>BASIS Peoria Boosters</b> what it is!<br>
     <br>
-    <h1>202x-202x BASIS Peoria Boosters Board</h1>
+    <h1>2022-2023 BASIS Peoria Boosters Board</h1>
     <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>
     <br>
     <BoardMembers/>
@@ -48,3 +48,4 @@
         We are looking for volunteers to join an already fantastic group of parents on this established committee.
     </div>
 </div>
+<br>

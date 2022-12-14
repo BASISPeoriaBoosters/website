@@ -6,18 +6,22 @@
         {
             name: "Heather Nuzzo",
             description: "President",
+            email: "president@basispeoriaboosters.org"
         },
         {
             name: "Tarun Punhani",
-            description: "Vice President"
+            description: "Vice President",
+            email: "vicepresident@basispeoriaboosters.org"
         },
         {
             name: "Vijay Yelmat",
-            description: "Treasurer"
+            description: "Treasurer",
+            email: "treasurer@basispeoriaboosters.org"
         },
         {
             name: "Joy Geiss",
-            description: "Communications"
+            description: "Communications",
+            email: "communications@basispeoriaboosters.org"
         }
     ];
 </script>
