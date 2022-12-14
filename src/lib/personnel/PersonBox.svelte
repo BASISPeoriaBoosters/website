@@ -42,7 +42,7 @@
             {#if person.email}
                 <br>
                 <span class="block my-1">
-                    <a href="mailto:{person.email}">{person.email}</a>
+                    <a href="mailto:{person.email}">Email</a>
                 </span>
             {/if}
         </span>
