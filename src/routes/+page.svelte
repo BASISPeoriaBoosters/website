@@ -18,7 +18,7 @@ import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
 
 
     .imageBox-background {
-        background-image: url("/img/building.png");
+        background-image: url("/img/building.webp");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
