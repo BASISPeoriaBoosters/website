@@ -81,7 +81,6 @@ import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
             as well as run the breakfast program.
             <br>
             <br>
-            <a href="/programs/breakfast#volunteer" class="btn btn-base btn-filled-tertiary text-black">Get Involved</a>
         </p>
     </div>
 </div>
