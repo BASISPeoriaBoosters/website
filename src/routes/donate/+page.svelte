@@ -45,8 +45,8 @@
     <h2>No-Cost Ways to Give</h2>
     <br>
     <div class="smaller-container mx-auto"> <!-- 2023-02-20T07:00:00.000Z -->
-        <hr>
         {#if new Date().getTime() < new Date("2023-02-20T07:00:00.000Z").getTime()}
+            <hr>
             <br>
             <h3>Amazon Smile</h3>
             <br>
@@ -56,8 +56,8 @@
             <a href="https://smile.amazon.com/ch/45-2095210" target="_blank" rel="noreferrer">https://smile.amazon.com/ch/45-2095210</a>
             <br>
             <br>
+            <hr>
         {/if}
-        <hr>
         <br>
         <h3>Fry’s Community Rewards Program</h3>
         <br>
