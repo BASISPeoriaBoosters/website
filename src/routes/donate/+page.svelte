@@ -20,7 +20,7 @@
         <br>
         <br>
         <a class="btn btn-lg btn-filled-primary text-black" target="_blank" rel="noreferrer"
-           href="https://connect.clickandpledge.com/w/Form/2ff8f074-26eb-4eb6-bfd4-a5c3afaa70e5?636983783319099668">
+           href="https://connect.clickandpledge.com/w/Form/fcf0f75f-12bb-4ea8-a227-cbddb5b96a65?638239452070929424">
             Make a Contribution
         </a>
         <br>
@@ -33,10 +33,6 @@
         <br>
         The school recommends an annual donation of $1,500 per family, which represents a small fraction of the annual
         cost of equivalent private school education. Every gift can make a difference!<br>
-        <br>
-        To learn more about the Annual Teacher Fund and to make a contribution,
-        <a href="http://www.basispeoria.org/annual-teachers-fund-atf-peoria.aspx?_ga=1.219036377.1578365184.1462828794" target="_blank" rel="noreferrer">
-            click here</a>.
     </div>
     <br>
     <br>
@@ -98,6 +94,25 @@
         <br>
         Because we are a 501(c)(3) not-for-profit organization, your donation to BASIS Peoria Boosters is tax exempt.
         But don’t let the power of your time, talents & treasure end there, ask your employer about a Matching Gifts or Volunteer Grant program!
+        <br>
+        <br>
+        <a href="https://doublethedonation.com/basischarterschools" class="btn btn-lg btn-filled-primary text-black" target="_blank" rel="noreferrer">
+            Employee Matching
+        </a>
+    </div>
+    <br>
+    <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>
+    <br>
+    <h2>Arizona Public School Tax Credit</h2>
+    <br>
+    <div class="smaller-container mx-auto">
+        The Arizona State Public School Tax Credit program allows you (family, friends, and neighbors) to make a donation
+        to our school and receive a dollar-for-dollar credit against Arizona state owed taxes!
+        <br>
+        <br>
+        <a href="https://connect.clickandpledge.com/w/Form/fc5ec4e3-3d80-451d-8099-a3333088498b?638239453839686699" class="btn btn-lg btn-filled-primary text-black" target="_blank" rel="noreferrer">
+            Arizona Public School Tax Credit
+        </a>
     </div>
     <br>
     <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>

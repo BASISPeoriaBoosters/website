@@ -8,12 +8,13 @@ const config = {
 	preprocess: [
 		preprocess({
 			postcss: true,
-			fallback: "404.html"
 		})
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			fallback: "404.html"
+		})
 	}
 };
 

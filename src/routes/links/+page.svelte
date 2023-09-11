@@ -10,11 +10,6 @@
 <br>
 <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://smile.amazon.com/ch/45-2095210" target="_blank" rel="noreferrer">
-    Amazon No-Cost Donations
-</a>
-<br>
-<br>
 <a class="btn btn-lg btn-filled-primary text-black" href="https://www.frysfood.com/topic/new-community-rewards-program" target="_blank" rel="noreferrer">
     Fry’s No-Cost Donations
 </a>
@@ -30,12 +25,12 @@
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="http://www.basispeoria.org/" target="_blank" rel="noreferrer">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://enrollbasis.com/peoria/" target="_blank" rel="noreferrer">
     BASIS Peoria Website
 </a>
 <br>
 <br>
-<a class="btn btn-lg btn-filled-primary text-black" href="https://enrollbasis.com/wp-content/uploads/2020/05/peoria-school-calendar.pdf " target="_blank" rel="noreferrer">
+<a class="btn btn-lg btn-filled-primary text-black" href="https://enrollbasis.com/wp-content/uploads/2023/02/peoria-school-calendar2023.pdf" target="_blank" rel="noreferrer">
     BASIS Peoria Event Calendar
 </a>
 <br>

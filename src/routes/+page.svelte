@@ -93,9 +93,7 @@ import UpcomingEvents from "$lib/calendar/UpcomingEvents.svelte";
         <h1>Volunteer-Run Breakfast Program</h1>
         <br>
         <p class="mx-auto !text-black">
-            BASIS Peoria Boosters’ volunteer-run breakfast program gathers orders, collects payment,
-            arranges vendor deliveries, and distributes breakfast on wednesdays from 6:45 AM until 1st period.
-            This wouldn’t be possible without our volunteers!
+            Coming soon
         </p>
     </div>
 </div>

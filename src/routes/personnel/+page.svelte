@@ -11,7 +11,7 @@
     <br>
     These are the people who make <b>BASIS Peoria Boosters</b> what it is!<br>
     <br>
-    <h1>2022-2023 BASIS Peoria Boosters Board</h1>
+    <h1>2023-2024 BASIS Peoria Boosters Board</h1>
     <Divider borderWidth="border-t-4" borderStyle="border-dotted" borderColor="border-tertiary-500"/>
     <br>
     <BoardMembers/>
@@ -22,7 +22,7 @@
     <br>
     Join a Booster Club Committee Today!<br>
     <br>
-    <h2>Events Committee</h2>
+    <!--<h2>Events Committee</h2>
     <br>
     <div class="smaller-container mx-auto text-left">
         <b>Events are back in full swing!</b> We are looking for parents who would like to plan events and dances throughout
@@ -30,11 +30,11 @@
         ticket sales, vendor selection, set-up, take-down, chaperoning etc.
     </div>
     <br>
-    <br>
+    <br>-->
     <h2>Senior Planning Committee</h2>
     <br>
     <div class="smaller-container mx-auto text-left">
-        We are looking for parents with 2022-2023 graduates that would like to plan activities and gifts to celebrate
+        We are looking for parents with 2023-2024 graduates that would like to plan activities and gifts to celebrate
         all that these students have accomplished and this special milestone.
     </div>
     <br>
